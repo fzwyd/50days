@@ -1,0 +1,23 @@
+*{
+    margin: 0 auto; padding: 0;
+}
+.content{
+    border: 1px solid #000;
+    height: 540px;
+	width: 960px;
+	overflow: hidden;
+}
+.static{
+    transition: width 2s;
+    margin-left: 20px;
+    float: left;
+    height: 200px;
+    width: 20px;
+    background-color: aqua;
+    border-radius: 25px;
+}
+.active {
+    transition: width 2s;
+    width: 200px;
+    background-color: blue;
+}
