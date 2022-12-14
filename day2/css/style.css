@@ -1,0 +1,54 @@
+*{
+    margin: 0 auto; padding: 0;
+}
+.cricle {
+    z-index: 100;
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    transition:0.5s;
+    border: 3px solid blue;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+}
+.active {
+    border: 3px solid red;;
+    transition:0.5s;
+}
+#line1{
+    position: absolute;
+    height: 5px;
+    width: 200px;
+    background-color: gray;
+    margin: 0 auto;
+}
+#line2{
+    z-index: 10;
+    position: absolute;
+    transition: width 0.5s;
+    height: 5px;
+    width: 0px;
+    background-color: red;
+    margin: 0 auto;
+}
+.main{
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    width: 80px;
+    height: 30px;
+    display: flex;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
