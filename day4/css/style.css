@@ -1,0 +1,51 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  width: 1400px;
+  height: 800px;
+  background-color: blueviolet;
+  }
+
+.main{
+  position: relative;
+  width: 460px;
+}
+.input1{
+  outline: none;
+  height: 60px;
+  width: 400px;
+  font-size: 60px;
+  border: none;
+  transition: 800ms;
+}
+
+.serch,.serch button{
+  background-color: aqua;
+  height: 64px;
+  width:  64px;
+}
+.serch{
+  position: absolute;
+  left: 400px;
+  top: -1px;
+  transition: 800ms;
+}
+
+.active .input1{
+  height: 60px;
+  width: 60px;
+  transform: translateX(200px);
+  transition:800ms;
+}
+
+.active .serch{
+  transform: translateX(-200px);
+  transition: 800ms;
+}
