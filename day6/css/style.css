@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    border: 1px solid black;
+    width: 1400px;
+}
+.content{
+    transition: 0.5s;
+    transform: translateX(-300%);
+    margin-top: 40px;
+    text-align: center;
+    line-height: 150px;
+    border: 1px solid red;
+    border-radius: 100px;
+    height: 150px;
+    width: 400px;
+    
+}
+.content:nth-child(even){
+    transform: translateX(300%);
+}
+.content.active{
+    transition: 0.5s;
+    transform: translateX(0%);
+    background-color: aqua;
+}
