@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    text-align: center;
+    border: 1px solid red;
+    height: 400px;
+    width: 400px;
+}
+.container h1{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+img {
+    filter: blur(20px);
+  }
+  
