@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    height: 900px;
+}
+
+h1{
+    display: block;
+    white-space:nowrap;
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.left,.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/ps.jpg");
+    flex: 1;
+    height: 100%;
+    transition: 2s;
+}
+
+.right{
+    background-image: url("../images/xbox.jpg");
+}
+
+.left:hover,.right:hover{
+    flex : 3 ;
+    transition: 2s ;
+}
+
+.left:before{
+    background-color: aqua;
+}
