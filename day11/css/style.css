@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+p{
+    border: 1px solid blue;
+    height: 70px;
+    margin-top: 5px;
+    line-height: 70px;
+    font-size: 20px;
+    background-color: azure;
+    border-radius: 10px;
+}
+.afterbox {
+    display: none;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.btn{
+    font-size: 20px;
+    width: 150px;
+    margin-left: 20px;
+}
